@@ -1,0 +1,12 @@
+.bodyDiv{
+    height: 100vh;
+}
+
+.tabs a{
+    color: #f62644;
+    font-weight: bold;
+}
+
+.auth-content{
+    height:70vh;
+}
