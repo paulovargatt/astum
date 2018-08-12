@@ -6,6 +6,8 @@ import { AuthModule } from './modules/auth.module';
 import { AuthRoutingModule } from './modules/auth-routing.module';
 import { StreamsRoutingModule } from './modules/streams-routing.module';
 import { StreamsModule } from './modules/streams.module';
+import {CookieService} from 'ngx-cookie-service';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +20,7 @@ import { StreamsModule } from './modules/streams.module';
     StreamsRoutingModule,
     StreamsModule
   ],
-  providers: [],
+  providers: [CookieService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

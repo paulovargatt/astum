@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9355705d-8ba3-4a56-83a8-1c92eeeaa2c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/backend-astum/controllers/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-astum/controllers/Auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-astum/routes/authRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-astum/routes/authRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-astum/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-astum/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/signup/signup.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/signup/signup.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/signup/signup.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/signup/signup.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/auth.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/auth.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend-astum/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/backend-astum/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-astum/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-astum/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-astum/src/app/components/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/components/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-astum/src/app/components/signup/signup.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/components/signup/signup.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-astum/src/app/components/streams/streams.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/components/streams/streams.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-astum/src/app/modules/streams-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/modules/streams-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-astum/src/app/modules/streams.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/modules/streams.module.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,13 +25,13 @@
     <session id="499234689">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="7" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.5" value="3" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="9" />
           <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -41,22 +39,22 @@
           <entry key="css" value="9" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="9" />
-          <entry key="js" value="13" />
-          <entry key="json" value="5" />
+          <entry key="js" value="14" />
+          <entry key="json" value="6" />
           <entry key="prettierrc" value="1" />
           <entry key="svg" value="1" />
-          <entry key="ts" value="22" />
+          <entry key="ts" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="9" />
           <entry key="HTML" value="9" />
-          <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="13" />
+          <entry key="JSON" value="6" />
+          <entry key="JavaScript" value="14" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SVG" value="1" />
-          <entry key="TypeScript" value="22" />
+          <entry key="TypeScript" value="30" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
@@ -64,9 +62,9 @@
         <counts>
           <entry key="css" value="72" />
           <entry key="html" value="740" />
-          <entry key="js" value="2398" />
+          <entry key="js" value="2416" />
           <entry key="json" value="77" />
-          <entry key="ts" value="1396" />
+          <entry key="ts" value="1871" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -74,13 +72,13 @@
           <entry key="CSS" value="72" />
           <entry key="HTML" value="740" />
           <entry key="JSON" value="77" />
-          <entry key="JavaScript" value="2398" />
-          <entry key="TypeScript" value="1396" />
+          <entry key="JavaScript" value="2416" />
+          <entry key="TypeScript" value="1871" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="Angular2LanguageService" value="15" />
+          <entry key="Angular2LanguageService" value="16" />
           <entry key="TsLintLanguageService" value="12" />
         </counts>
       </usages-collector>
@@ -95,57 +93,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/signup/signup.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="37" column="110" lean-forward="true" selection-start-line="37" selection-start-column="80" selection-end-line="37" selection-end-column="110" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/signup/signup.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="39" column="15" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="39" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/login/login.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="21" column="100" selection-start-line="21" selection-start-column="100" selection-end-line="21" selection-end-column="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/components/login/login.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/services/auth.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backend-astum/routes/authRoutes.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
@@ -154,11 +101,98 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backend-astum/controllers/Auth.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-astum/src/app/services/token.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+            <state relative-caret-position="415">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-astum/src/app/components/signup/signup.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="37" selection-start-line="37" selection-end-line="38" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-astum/src/app/components/login/login.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-astum/src/app/components/streams/streams.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-astum/src/app/services/auth.guard.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front-astum/src/app/modules/streams-routing.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-astum/src/app/modules/streams.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-astum/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="463">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,9 +207,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/app/services/auth.service.ts" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -196,7 +227,6 @@
         <option value="$PROJECT_DIR$/backend-astum/helpers/helpers.js" />
         <option value="$PROJECT_DIR$/backend-astum/config/secret.js" />
         <option value="$PROJECT_DIR$/src/app/modules/auth.module.ts" />
-        <option value="$PROJECT_DIR$/backend-astum/server.js" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/app/modules/streams.module.ts" />
         <option value="$PROJECT_DIR$/src/app/modules/streams-routing.module.ts" />
@@ -207,25 +237,32 @@
         <option value="$PROJECT_DIR$/src/app/components/signup/signup.component.html" />
         <option value="$PROJECT_DIR$/src/app/components/login/login.component.html" />
         <option value="$PROJECT_DIR$/backend-astum/controllers/Auth.js" />
+        <option value="$PROJECT_DIR$/front-astum/src/app/modules/streams.module.ts" />
+        <option value="$PROJECT_DIR$/front-astum/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/front-astum/src/app/services/token.service.ts" />
+        <option value="$PROJECT_DIR$/front-astum/src/app/components/signup/signup.component.ts" />
+        <option value="$PROJECT_DIR$/front-astum/src/app/components/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/front-astum/src/app/components/streams/streams.component.ts" />
+        <option value="$PROJECT_DIR$/backend-astum/server.js" />
+        <option value="$PROJECT_DIR$/front-astum/src/app/services/auth.guard.ts" />
+        <option value="$PROJECT_DIR$/front-astum/src/app/modules/streams-routing.module.ts" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
-    <package-json value="$PROJECT_DIR$/package.json" />
-  </component>
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/backend-astum/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/front-astum/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/backend-astum/package.json" />
-      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/front-astum/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -250,17 +287,25 @@
             <path>
               <item name="astum" type="b2602c69:ProjectViewProjectNode" />
               <item name="astum" type="462c0819:PsiDirectoryNode" />
+              <item name="front-astum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="astum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="astum" type="462c0819:PsiDirectoryNode" />
+              <item name="front-astum" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="astum" type="b2602c69:ProjectViewProjectNode" />
               <item name="astum" type="462c0819:PsiDirectoryNode" />
+              <item name="front-astum" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="astum" type="b2602c69:ProjectViewProjectNode" />
               <item name="astum" type="462c0819:PsiDirectoryNode" />
+              <item name="front-astum" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
@@ -268,6 +313,7 @@
             <path>
               <item name="astum" type="b2602c69:ProjectViewProjectNode" />
               <item name="astum" type="462c0819:PsiDirectoryNode" />
+              <item name="front-astum" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
@@ -276,6 +322,7 @@
             <path>
               <item name="astum" type="b2602c69:ProjectViewProjectNode" />
               <item name="astum" type="462c0819:PsiDirectoryNode" />
+              <item name="front-astum" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
@@ -284,6 +331,24 @@
             <path>
               <item name="astum" type="b2602c69:ProjectViewProjectNode" />
               <item name="astum" type="462c0819:PsiDirectoryNode" />
+              <item name="front-astum" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="streams" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="astum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="astum" type="462c0819:PsiDirectoryNode" />
+              <item name="front-astum" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="astum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="astum" type="462c0819:PsiDirectoryNode" />
+              <item name="front-astum" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
@@ -305,7 +370,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\xampp\htdocs\astum\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="C:\xampp\htdocs\astum\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\xampp\htdocs\astum\front-astum\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -351,16 +416,21 @@
       <workItem from="1534012306583" duration="9000" />
       <workItem from="1534012405968" duration="31000" />
       <workItem from="1534012452251" duration="4918000" />
+      <workItem from="1534082387755" duration="51000" />
+      <workItem from="1534082460550" duration="24000" />
+      <workItem from="1534082500557" duration="19000" />
+      <workItem from="1534082536632" duration="1351000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34049000" />
+    <option name="totallyTimeSpent" value="35494000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49508196" visible="true" weight="0.20953101" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49508196" visible="true" weight="0.1580938" />
       <window_info id="Structure" order="1" sideWeight="0.50491804" side_tool="true" weight="0.22617246" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -390,81 +460,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.prettierrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tslint.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="77" column="28" selection-start-line="77" selection-start-column="28" selection-end-line="77" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.prettierrc" />
+    <entry file="file://$PROJECT_DIR$/tslint.json" />
+    <entry file="file://$PROJECT_DIR$/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/angular.json" />
     <entry file="file://$PROJECT_DIR$/src/app/modules/app-routing.module.ts" />
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/images/logo.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/auth-tabs/auth-tabs.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/auth-tabs/auth-tabs.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/auth-tabs/auth-tabs.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-astum/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.html" />
+    <entry file="file://$PROJECT_DIR$/src/styles.css" />
+    <entry file="file://$PROJECT_DIR$/src/assets/images/logo.svg" />
+    <entry file="file://$PROJECT_DIR$/src/app/components/auth-tabs/auth-tabs.component.ts" />
+    <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/src/app/components/auth-tabs/auth-tabs.component.html" />
+    <entry file="file://$PROJECT_DIR$/src/app/components/auth-tabs/auth-tabs.component.css" />
     <entry file="file://$PROJECT_DIR$/backend-astum/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -515,64 +522,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modules/auth.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="57" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend-astum/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modules/streams.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/signup/signup.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modules/streams-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modules/auth-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/modules/auth.module.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/modules/streams.module.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/components/signup/signup.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/modules/streams-routing.module.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/modules/auth-routing.module.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/components/login/login.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/components/signup/signup.component.html" />
+    <entry file="file://$PROJECT_DIR$/src/app/components/signup/signup.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/components/login/login.component.html" />
+    <entry file="file://$PROJECT_DIR$/src/app/components/login/login.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/services/auth.service.ts" />
     <entry file="file://$PROJECT_DIR$/backend-astum/routes/authRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -580,58 +541,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/login/login.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/services/auth.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/login/login.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/signup/signup.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="37" column="110" lean-forward="true" selection-start-line="37" selection-start-column="80" selection-end-line="37" selection-end-column="110" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/signup/signup.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="39" column="15" lean-forward="true" selection-start-line="36" selection-start-column="6" selection-end-line="39" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/login/login.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" column="100" selection-start-line="21" selection-start-column="100" selection-end-line="21" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend-astum/controllers/Auth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="71" column="25" lean-forward="true" selection-start-line="71" selection-start-column="25" selection-end-line="71" selection-end-column="25" />
+        <state relative-caret-position="168">
+          <caret line="58" column="45" selection-start-line="58" selection-start-column="45" selection-end-line="58" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-astum/src/app/modules/streams.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-astum/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-astum/src/app/services/token.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-astum/src/app/components/signup/signup.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="37" selection-start-line="37" selection-end-line="38" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-astum/src/app/components/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="47" selection-end-line="37" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-astum/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend-astum/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-astum/src/app/components/streams/streams.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-astum/src/app/services/auth.guard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-astum/src/app/modules/streams-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
