@@ -7,11 +7,13 @@ import { AuthRoutingModule } from './modules/auth-routing.module';
 import { StreamsRoutingModule } from './modules/streams-routing.module';
 import { StreamsModule } from './modules/streams.module';
 import {CookieService} from 'ngx-cookie-service';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    ToolbarComponent,
   ],
   imports: [
     BrowserModule,
