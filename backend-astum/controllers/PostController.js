@@ -36,6 +36,19 @@ function AddPost(req, res) {
   });
 }
 
+ async function getAllPosts(req, res){
+  try {
+    const posts = await
+      Post.find({})
+        .populate('user')
+        .sort({created: -1})
+    return res.status(HttpStatus.OK).json({message: 'Posts', posts});
+  }catch (e) {
+    return res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({message: 'Error', e});
+  }
+}
+
 module.exports = {
-  AddPost
+  AddPost,
+  getAllPosts
 };

@@ -19,6 +19,7 @@ export class TokenService {
     return this.cookieService.get('token');
   }
 
+
   deleteToken(){
     return this.cookieService.delete('token');
   }
@@ -30,11 +31,11 @@ export class TokenService {
       payload = token.split('.')[1];
       payload = JSON.parse(atob(payload));
       let exp:any = new Date(payload.exp);
-      console.log(exp*1000);
+
       if(exp*1000 < new Date().getTime()){
         this.deleteToken();
       }
     }
-    return payload;
+    return payload.data;
   }
 }

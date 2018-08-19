@@ -9,10 +9,14 @@ import { Router } from '@angular/router';
 })
 export class ToolbarComponent implements OnInit {
 
+  user:any;
+
   constructor(private token: TokenService,
               private router: Router) { }
 
   ngOnInit() {
+    this.user = this.token.getPayload();
+    console.log(this.user)
   }
 
   logout(){

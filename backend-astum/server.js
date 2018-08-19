@@ -7,6 +7,12 @@ const cors = require('cors');
 const app = express();
 
 app.use(cors());
+
+const dbConf = require('./config/secret');
+
+const server = require('http').createServer(app);
+const io = require('socket.io').listen(server);
+
 app.use((req, res, next)  => {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Credentials", "true");
@@ -15,7 +21,6 @@ app.use((req, res, next)  => {
   next();
 });
 
-const dbConf = require('./config/secret');
 
 app.use(express.json({limit: '50mb'}));
 app.use(express.urlencoded({extend: true, limit: '50mb'}));
@@ -27,9 +32,12 @@ mongoose.connect(dbConf.url, {useNewUrlParser: true});
 
 const auth = require('./routes/authRoutes');
 const posts = require('./routes/postRoutes');
+
+require('./socket/streams')(io);
+
 app.use('/api/astum', auth);
 app.use('/api/astum', posts);
 
-app.listen(3000, () => {
+server.listen(3000, () => {
   console.log('Running')
 });
