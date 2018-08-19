@@ -7,6 +7,8 @@ import { AuthRoutingModule } from './modules/auth-routing.module';
 import { StreamsRoutingModule } from './modules/streams-routing.module';
 import { StreamsModule } from './modules/streams.module';
 import {CookieService} from 'ngx-cookie-service';
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { TokenInterceptor } from './services/token-interceptor.service';
 
 
 @NgModule({
@@ -20,7 +22,12 @@ import {CookieService} from 'ngx-cookie-service';
     StreamsRoutingModule,
     StreamsModule
   ],
-  providers: [CookieService],
+  providers: [CookieService,
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: TokenInterceptor,
+      multi: true
+    }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

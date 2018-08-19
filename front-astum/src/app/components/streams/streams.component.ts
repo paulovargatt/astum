@@ -16,13 +16,9 @@ export class StreamsComponent implements OnInit {
               ) { }
 
   ngOnInit() {
-    this.token = this.tokenService.getToken();
+    this.token = this.tokenService.getPayload();
     console.log(this.token)
   }
 
-  logout(){
-    this.tokenService.deleteToken();
-    this.router.navigate([''])
-  }
 
 }

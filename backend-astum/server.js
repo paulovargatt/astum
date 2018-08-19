@@ -26,7 +26,9 @@ mongoose.Promise = global.Promise;
 mongoose.connect(dbConf.url, {useNewUrlParser: true});
 
 const auth = require('./routes/authRoutes');
+const posts = require('./routes/postRoutes');
 app.use('/api/astum', auth);
+app.use('/api/astum', posts);
 
 app.listen(3000, () => {
   console.log('Running')
