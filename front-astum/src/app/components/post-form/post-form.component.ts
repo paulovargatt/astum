@@ -20,6 +20,8 @@ export class PostFormComponent implements OnInit {
     this.socket = io(this.socketHost)
   }
 
+
+
   ngOnInit() {
     this.postForm = this.fb.group({
       post: ['', Validators.required]
@@ -28,6 +30,7 @@ export class PostFormComponent implements OnInit {
 
   submitPost(){
     this.postService.addPost(this.postForm.value).subscribe(data => {
+      this.socket.emit('refresh', {data: 'event test'});
       this.postForm.reset();
     });
   }

@@ -19,8 +19,8 @@ function AddPost(req, res) {
     post: req.body.post,
     created: new Date()
   };
-  Post.create(body).then( async (post) => {
-    await User.update({_id: req.user._id},
+  Post.create(body).then(async (post) => {
+    await User.update({ _id: req.user._id },
       {
         $push: {
           posts: {
@@ -36,19 +36,42 @@ function AddPost(req, res) {
   });
 }
 
- async function getAllPosts(req, res){
+async function getAllPosts(req, res) {
   try {
     const posts = await
       Post.find({})
         .populate('user')
-        .sort({created: -1})
-    return res.status(HttpStatus.OK).json({message: 'Posts', posts});
-  }catch (e) {
-    return res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({message: 'Error', e});
+        .sort({ created: -1 });
+    return res.status(HttpStatus.OK).json({ message: 'Posts', posts });
+  } catch (e) {
+    return res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({ message: 'Error', e });
   }
+}
+
+async function AddLike(req, res) {
+  const postId = req.body._id;
+  await Post.update({
+    _id: postId,
+    'likes.username': {$ne: req.user.username},
+
+  }, {
+    $push: {
+      likes: {
+        username: req.user.username
+      }
+    },
+    $inc: { totalLikes: 1 }
+  }).then(()=>{
+    return res.status(HttpStatus.OK).json({ message: 'Você curtiu esse post'});
+  })
+    .catch((e)=>{
+      return res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({ message: 'Error', e });
+    })
+
 }
 
 module.exports = {
   AddPost,
-  getAllPosts
+  getAllPosts,
+  AddLike
 };
