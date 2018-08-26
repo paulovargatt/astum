@@ -69,7 +69,7 @@ module.exports = {
           return res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({message: 'Senha incorreta'});
         }
         const token = jwt.sign({data: user}, dbConf.secret, {
-          expiresIn: "1h"
+          expiresIn: "10000"
         });
         res.cookie('auth', token)
         return res.status(HttpStatus.OK).json({message: 'Login efetuado', user, token});

@@ -67,11 +67,47 @@ async function AddLike(req, res) {
     .catch((e)=>{
       return res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({ message: 'Error', e });
     })
-
 }
+
+async function AddComment(req, res) {
+  const postId = req.body.postId;
+  await Post.update(
+    {
+    _id: postId,
+  },
+   {
+    $push: {
+      comments: {
+        userId: req.user._id,
+        username: req.user.username,
+        comment: req.body.comment,
+        createdAt: new Date()
+      }
+    },
+  }).then(()=>{
+    return res.status(HttpStatus.OK).json({ message: 'Comentário add'});
+  })
+    .catch((e)=>{
+      return res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({ message: 'Error', e });
+    })
+}
+
+async function getPost(req, res){
+  await Post.findOne({ _id: req.params.id})
+    .populate('comments.userId')
+    .populate('user')
+    .then(post => {
+      res.status(HttpStatus.OK).json({message: 'Post', post})
+    }).catch((err) => {
+       return  res.status(HttpStatus.NOT_FOUND).json({message: 'Post nao encontrado', err})
+    })
+
+};
 
 module.exports = {
   AddPost,
   getAllPosts,
-  AddLike
+  AddLike,
+  AddComment,
+  getPost
 };

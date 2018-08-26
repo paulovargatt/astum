@@ -1,0 +1,92 @@
+.navbar {
+  &-topo {
+    height: 65px;
+  }
+  &-info {
+    font-weight: 300;
+    font-size: 0.9em;
+    color: #84869C;
+    .icon {
+      margin: 0 3px;
+    }
+  }
+  &-logo {
+    h1 {
+      font-weight: 300;
+      font-size: 3.2em;
+      text-align: center;
+      color: #A891EE;
+      font-family: "Fabulous";
+      margin: 0px;
+    }
+  }
+  &-menu {
+    text-align: center;
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        margin: 0 6px;
+      }
+    }
+  }
+}
+
+.user-avatar {
+  width: 30px;
+}
+
+.user-detail {
+  padding: 10px 15px;
+  &-title {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    .img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+    .title {
+      text-align: center;
+      font-weight: bold;
+      font-size: 0.9em;
+      width: 100%;
+    }
+    .curtidas {
+      display: block;
+      width: 100%;
+    }
+  }
+  &-footer {
+    width: 100%;
+    padding: 10px 5px;
+    .icon-heart {
+      color: #e02929;
+      font-size: 1.6em;
+    }
+    .likes {
+      margin: 0 5px;
+      font-weight: bold
+    }
+  }
+}
+
+.sidebar-menu {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  padding: 15px 10px;
+  li{
+    margin: 8px 0px;
+    display: flex;
+    ion-icon{margin: 0 5px; fill: rgba(128, 128, 128, 0.43)}
+    font-size: 1.15em;
+    color: rgba(128, 128, 128, 0.73);
+    font-weight: 600
+  }
+}
+
+ion-slide{
+  img{ width: 90px!important; border-radius: 50%}
+}

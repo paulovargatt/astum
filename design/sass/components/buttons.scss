@@ -1,0 +1,33 @@
+.btn-primary{
+    border: 1px solid #CE9ED4;
+    padding: 5px 8px;
+    border-radius: 2px;
+    color: #fff;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    background: linear-gradient(to right bottom, #9075e2, #ee68ff);
+
+    &:hover{
+        transform: translateY(1px);
+        &::after {
+          transform: scaleX(1.3) scaleY(1.6);
+          opacity: 0;
+        }
+    }
+
+    &:active{
+        transform: translateY(-1px);
+      //  box-shadow: 0 0.3125rem 0.625rem rgba($color-black, 0.2);
+        box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.219)
+    }
+
+    .icon{
+        margin: 0 2px;
+        font-size: 1.6em;
+        fill: #fff;
+        
+    }
+}

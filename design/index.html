@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <title>Astum</title>
+    <meta name="description" content="Astum - Encontra pessoas interessantes..." />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/@ionic/core@latest/dist/ionic.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="box navbar-topo d-flex align-items-center ">
+        <div class="container justify-content-center  align-items-center ">
+            <div class="row">
+                <div class="navbar-info col-md-4 d-flex align-items-center">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <img class="icon" width="20px" src="svgs/gps.svg" alt="">
+                        <p>Você está em:
+                            <b> Porto Alegre</b>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="navbar-logo col-md-4">
+                    <h1>Astum</h1>
+                </div>
+
+                <div class="navbar-menu col-md-4 justify-content-end">
+                    <ul class="d-flex justify-content-end">
+                        <li>
+                            <img class="user-avatar" src="svgs/noty.svg" alt="">
+                        </li>
+                        <li>
+                            <img class="user-avatar" src="svgs/user.svg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mg-top-20 ">
+        <div class="row">
+            <div class="col-md-3  ">
+                <div class="user-detail user-detail-title box d-flex justify-content-center align-items-center">
+                    <div class="col-md-4">
+                        <img class="img" src="https://lh3.googleusercontent.com/-xtXajHmN7ew/AAAAAAAAAAI/AAAAAAAAAAA/O1WoRYgD2xM/s128-c-k/photo.jpg">
+                    </div>
+                    <div class="col-md-8">
+                        <span class="title">Paulo Vargatt</span>
+                        <span>Status: Casado</span>
+
+                    </div>
+                </div>
+                <div class="box user-detail-footer d-flex justify-content-center align-items-center center">
+                    <ion-icon class="icon-heart" name="heart-empty"></ion-icon>
+                    <span class="likes">250</span>
+                    <button class="btn-primary">
+                        <ion-icon class="icon" name="star-outline"></ion-icon> Seja Premium
+                    </button>
+                </div>
+
+                <div class="col mg-top-20 box">
+                    <ul class="sidebar-menu">
+                        <li>
+                            <ion-icon name="apps"></ion-icon> Inicio</li>
+                        <li>
+                            <ion-icon name="contacts"></ion-icon> Pessoas</li>
+                        <li>
+                            <ion-icon name="chatboxes"></ion-icon> Mensagens</li>
+                        <li>
+                            <ion-icon name="search"></ion-icon> Pesquisar</li>
+                        <li>
+                            <ion-icon name="star"></ion-icon> Em destaque</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-md-6 box mg-15">
+                <ion-slides id="slide_init">
+
+                </ion-slides>
+            </div>
+
+            <div class="col box">
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script>
+    var api = "https://reqres.in/api/users?per_page=10";
+    fetch(api).
+    then(response => response.json())
+        .then((ret) => {
+          var slide = document.getElementById('slide_init');
+            console.log(slide)
+            var response = ret.data;
+            if (response && response.length) {
+                for (result of response) {
+                    console.log(result.first_name)    
+                    var temp = 
+                        `<ion-slide>
+                            <img src="${result.avatar}">
+                        </ion-slide>
+                        `
+                        slide.innerHTML = temp
+                    ;       
+                }
+               
+
+            }
+            console.log(response.data)
+        })
+        .catch(error => {
+            console.log(error)
+        });
+
+    var slides = document.querySelector('ion-slides');
+    slides.options = {
+        slidesPerView: 5,
+    }
+</script>
+
+</html>

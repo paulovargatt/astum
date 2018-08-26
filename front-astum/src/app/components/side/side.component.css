@@ -7,5 +7,25 @@ a{
 }
 
 .active{
+    background: #64b5f6!important;
+}
+.material-icons{
+    color: #64b5f6;
+}
 
+.active .material-icons{
+    color: #fff
+}
+
+.row span{
+    font-weight: bold;
+    font-size: 1em;
+  /* text-align: center;*/
+}
+.num{
+    margin: 0 auto !important;
+    font-weight: 800;
+    font-size: 1.1em;
+    color: #64b5f6;
+    //text-align: center;
 }
