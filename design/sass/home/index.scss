@@ -27,6 +27,11 @@
       display: flex;
       li {
         margin: 0 6px;
+
+        ion-icon{
+          font-size: 1.9em;
+          color: $gray;
+        }
       }
     }
   }
@@ -82,8 +87,9 @@
     display: flex;
     ion-icon{margin: 0 5px; fill: rgba(128, 128, 128, 0.43)}
     font-size: 1.15em;
-    color: rgba(128, 128, 128, 0.73);
-    font-weight: 600
+    color: $gray_dark;
+    font-weight: 600;
+    align-items: center;
   }
 }
 

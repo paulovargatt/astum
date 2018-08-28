@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9355705d-8ba3-4a56-83a8-1c92eeeaa2c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/fonts/Fabulous.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/fonts/Fabulous.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/sass/home/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/sass/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/sass/untils/grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/sass/untils/helpers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/svgs/gps.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/svgs/noty.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design/svgs/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/sass/components/colors.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design/svgs/premium.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-astum/controllers/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-astum/controllers/Auth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-astum/controllers/PostController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-astum/controllers/PostController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-astum/routes/postRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-astum/routes/postRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-astum/src/app/components/posts/posts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/components/posts/posts.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-astum/src/app/components/posts/posts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/components/posts/posts.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-astum/src/app/components/side/side.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/components/side/side.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-astum/src/app/components/side/side.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/components/side/side.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-astum/src/app/modules/streams-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/modules/streams-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-astum/src/app/modules/streams.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/modules/streams.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-astum/src/app/services/post.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/services/post.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/design/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/design/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/sass/components/buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/design/sass/components/buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/sass/home/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/design/sass/home/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/sass/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/design/sass/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design/sass/untils/helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/design/sass/untils/helpers.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,16 +25,17 @@
     <session id="499234689">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="37" />
+          <entry key="project.closed" value="41" />
           <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="2" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="6" />
-          <entry key="project.open.time.6" value="4" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.5" value="8" />
+          <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="17" />
-          <entry key="project.open.time.8" value="9" />
+          <entry key="project.open.time.8" value="10" />
           <entry key="project.open.time.9" value="5" />
-          <entry key="project.opened" value="46" />
+          <entry key="project.opened" value="52" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -55,11 +43,11 @@
           <entry key="css" value="17" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="29" />
-          <entry key="js" value="38" />
+          <entry key="js" value="39" />
           <entry key="json" value="11" />
           <entry key="prettierrc" value="1" />
-          <entry key="scss" value="8" />
-          <entry key="svg" value="7" />
+          <entry key="scss" value="10" />
+          <entry key="svg" value="8" />
           <entry key="ts" value="62" />
         </counts>
       </usages-collector>
@@ -68,10 +56,10 @@
           <entry key="CSS" value="17" />
           <entry key="HTML" value="29" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="38" />
+          <entry key="JavaScript" value="39" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="8" />
-          <entry key="SVG" value="7" />
+          <entry key="SCSS" value="10" />
+          <entry key="SVG" value="8" />
           <entry key="TypeScript" value="62" />
           <entry key="tsconfig" value="1" />
         </counts>
@@ -79,20 +67,20 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="327" />
-          <entry key="html" value="3546" />
+          <entry key="html" value="4084" />
           <entry key="js" value="5563" />
           <entry key="json" value="84" />
-          <entry key="scss" value="1036" />
+          <entry key="scss" value="1587" />
           <entry key="ts" value="4806" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="327" />
-          <entry key="HTML" value="3546" />
+          <entry key="HTML" value="4084" />
           <entry key="JSON" value="84" />
           <entry key="JavaScript" value="5563" />
-          <entry key="SCSS" value="1036" />
+          <entry key="SCSS" value="1587" />
           <entry key="TypeScript" value="4806" />
         </counts>
       </usages-collector>
@@ -115,17 +103,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/design/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/sass/home/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="371">
+              <caret line="66" column="65" selection-start-line="66" selection-start-column="65" selection-end-line="66" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -133,8 +112,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/design/sass/untils/helpers.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="436">
+              <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/sass/home/index.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="40">
+              <caret line="65" column="12" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/sass/components/colors.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design/sass/components/buttons.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -142,8 +148,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/design/sass/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="72">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -164,6 +170,10 @@
       <find>all</find>
       <find>box</find>
       <find>navbar-logo</find>
+      <find>button</find>
+      <find>sidebar</find>
+      <find>user-de</find>
+      <find>navbar-menu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -172,8 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app/components/signup/signup.component.ts" />
-        <option value="$PROJECT_DIR$/backend-astum/routes/authRoutes.js" />
         <option value="$PROJECT_DIR$/src/app/services/auth.service.ts" />
         <option value="$PROJECT_DIR$/src/app/components/login/login.component.ts" />
         <option value="$PROJECT_DIR$/src/app/components/signup/signup.component.html" />
@@ -219,9 +227,11 @@
         <option value="$PROJECT_DIR$/design/package.json" />
         <option value="$PROJECT_DIR$/design/css/style.css" />
         <option value="$PROJECT_DIR$/design/sass/untils/grid.scss" />
-        <option value="$PROJECT_DIR$/design/sass/main.scss" />
-        <option value="$PROJECT_DIR$/design/sass/untils/helpers.scss" />
         <option value="$PROJECT_DIR$/design/sass/home/index.scss" />
+        <option value="$PROJECT_DIR$/design/sass/main.scss" />
+        <option value="$PROJECT_DIR$/design/sass/components/buttons.scss" />
+        <option value="$PROJECT_DIR$/design/sass/components/colors.scss" />
+        <option value="$PROJECT_DIR$/design/sass/untils/helpers.scss" />
         <option value="$PROJECT_DIR$/design/index.html" />
       </list>
     </option>
@@ -246,7 +256,8 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1359" />
+    <option name="x" value="1373" />
+    <option name="y" value="-8" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -280,7 +291,7 @@
               <item name="astum" type="462c0819:PsiDirectoryNode" />
               <item name="design" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="untils" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="astum" type="b2602c69:ProjectViewProjectNode" />
@@ -308,15 +319,15 @@
     <property name="ts.external.directory.path" value="C:\xampp\htdocs\astum\front-astum\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\astum\design\fonts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\astum\design\svgs" />
       <recent name="C:\xampp\htdocs\astum\backend-astum\routes" />
       <recent name="C:\xampp\htdocs\astum\backend-astum\models" />
       <recent name="C:\xampp\htdocs\astum\backend-astum" />
       <recent name="C:\xampp\htdocs\astum\src\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\astum\design\fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -387,16 +398,23 @@
       <workItem from="1535258577073" duration="165000" />
       <workItem from="1535258782015" duration="123000" />
       <workItem from="1535258919888" duration="73000" />
+      <workItem from="1535322445949" duration="67000" />
+      <workItem from="1535322535728" duration="62000" />
+      <workItem from="1535322612884" duration="45000" />
+      <workItem from="1535422102711" duration="1048000" />
+      <workItem from="1535423258761" duration="103000" />
+      <workItem from="1535423374974" duration="6625000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93473000" />
+    <option name="totallyTimeSpent" value="101423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4939394" visible="true" weight="0.1709531" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4939394" visible="true" weight="0.204236" />
       <window_info id="Structure" order="1" sideWeight="0.5060606" side_tool="true" weight="0.22012103" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -426,27 +444,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/front-astum/src/app/components/post-form/post-form.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-astum/src/app/components/toolbar/toolbar.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-astum/src/app/components/post-form/post-form.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backend-astum/routes/authRoutes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -613,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend-astum/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="587">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-astum/src/app/modules/streams.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -683,9 +673,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.angulardoc.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.angulardoc.json" />
     <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/design/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -721,31 +709,55 @@
     <entry file="file://$PROJECT_DIR$/design/svgs/user.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/design/index.html">
+    <entry file="file://$PROJECT_DIR$/backend-astum/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/sass/home/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/sass/untils/helpers.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="216">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/design/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="72">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/svgs/premium.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/sass/home/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="65" column="12" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/sass/components/colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/sass/components/buttons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/sass/untils/helpers.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="79" column="16" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="66" column="65" selection-start-line="66" selection-start-column="65" selection-end-line="66" selection-end-column="65" />
         </state>
       </provider>
     </entry>
