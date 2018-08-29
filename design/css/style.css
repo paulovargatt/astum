@@ -1452,7 +1452,7 @@ body {
 
 @font-face {
   font-family: "Fabulous";
-  src: url("../fonts/Fabulous.otf") format("opentype"); }
+  src: url("../../front-astum/src/assets/fonts/Fabulous.otf") format("opentype"); }
 
 .box {
   background: white;

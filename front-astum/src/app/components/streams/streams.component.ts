@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 @Component({
   selector: 'app-streams',
   templateUrl: './streams.component.html',
-  styleUrls: ['./streams.component.css']
+  styleUrls: ['./streams.component.scss']
 })
 export class StreamsComponent implements OnInit {
 

@@ -1,0 +1,86 @@
+body {
+  background: rgba(240, 240, 241, 0.73);
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Open Sans', sans-serif;
+  color: #84869C;
+}
+
+@font-face {
+  font-family: "Fabulous";
+  src: url("./assets/fonts/Fabulous.otf") format("opentype"),
+}
+
+.box {
+  background: white;
+  box-shadow: 0px 1px 3px rgba(54, 99, 119, 0.05);
+  border-radius: 3px;
+}
+
+.mg-top-20 {
+  margin-top: 20px;
+}
+
+.mg-15 {
+  margin: 0 15px;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.premium_box {
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 140px;
+  .col {
+    padding: 0px;
+    margin: 0px;
+  }
+  img {
+    max-width: 100%;
+    display: block;
+    width: 60px;
+  }
+  h2 {
+    font-size: 1em;
+    margin: 0px 3px
+  }
+  p {
+    margin: 5px 3px;
+    font-size: 0.75em
+  }
+
+  button {
+    margin: 15px 5px;
+    width: 100%;
+  }
+}
+
+.group-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ion-icon {
+    font-size: 1.7em;
+    margin-left: 9px;
+  }
+}
+
+@mixin font-gradient(){
+  background: linear-gradient($pink, $purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.font-gradient{
+  color: #a4b9fe;
+  font-weight: bolder;
+}
+
+.user-avatar {
+  width: 30px;
+}

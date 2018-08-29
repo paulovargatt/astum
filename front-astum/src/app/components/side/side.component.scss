@@ -1,0 +1,49 @@
+.user-detail {
+    padding: 10px 15px;
+    &-title {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        .img {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+        }
+        .title {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1em;
+            width: 100%;
+        }
+        .curtidas {
+            display: block;
+            width: 100%;
+        }
+    }
+    &-footer {
+        width: 100%;
+        padding: 10px 5px;
+        i {
+            color: #64b5f6;
+            font-size: 1.6em;
+            margin: 0 5px;
+            font-weight: bold
+        }
+    }
+}
+
+.sidebar-menu {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding: 15px 10px;
+    li{
+        margin: 8px 0px;
+        display: flex;
+        i{margin: 0 5px; fill: rgba(128, 128, 128, 0.43)}
+        font-size: 1.15em;
+        color: #64b5f6;
+        font-weight: 600;
+        align-items: center;
+    }
+}

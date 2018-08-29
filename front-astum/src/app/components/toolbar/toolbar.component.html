@@ -1,19 +1,30 @@
-<nav class="nav-extended">
-    <div class="container">
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo">Astum </a>
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="sass.html">Sass</a></li>
-                <li><a href="badges.html">Components</a></li>
-                <li><a href="collapsible.html" (click)="logout()">Logout</a></li>
-            </ul>
-        </div>
-        <div class="nav-content">
-            <div class="nav-div">
-                <img src="http://placehold.it/150x150" class="circle responsive-img" alt="">
+<nav class="box navbar-topo d-flex align-items-center ">
+    <div class="container justify-content-center  align-items-center ">
+        <div class="row">
+            <div class="navbar-info col-md-4 d-flex align-items-center">
+                <div class="d-flex align-items-center justify-content-center">
+                    <i class="icon ion-md-locate"></i>
+
+                    <p>Você está em:
+                        <b> Porto Alegre</b>
+                    </p>
+                </div>
             </div>
-            <h1 class="profile-name">{{user.username}} </h1>
-            <!--<p class="user-text">Teste</p>-->
+
+            <div class="navbar-logo col-md-4">
+                <h1>Astum</h1>
+            </div>
+
+            <div class="navbar-menu col-md-4 d-flex justify-content-end align-items-center">
+                <ul class="d-flex justify-content-end">
+                    <li>
+                        <i class="icon ion-ios-notifications-outline"></i>
+                    </li>
+                    <li>
+                        <i class="icon ion-ios-contact"></i>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </nav>

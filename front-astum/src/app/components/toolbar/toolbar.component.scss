@@ -1,0 +1,38 @@
+.navbar {
+    &-topo {
+        height: 65px;
+    }
+    &-info {
+        font-weight: 300;
+        font-size: 0.9em;
+        color: #84869C;
+        .icon {
+            margin: 0 3px;
+        }
+    }
+    &-logo {
+        h1 {
+            font-weight: 300;
+            font-size: 3.2em;
+            text-align: center;
+            color: #A891EE;
+            font-family: "Fabulous";
+            margin: 0px;
+        }
+    }
+    &-menu {
+        text-align: center;
+        ul {
+            list-style: none;
+            display: flex;
+            li {
+                margin: 0 6px;
+
+                i.icon{
+                    font-size: 1.9em;
+                    color: gray;
+                }
+            }
+        }
+    }
+}
