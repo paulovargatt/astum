@@ -1,0 +1,36 @@
+.post_user{
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 15px;
+    align-items: center;
+    &-desc{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 101px;
+        min-height: 100px;
+       .title{font-weight: bold; margin: 0 5px;font-size: 0.8em;
+           width: 100%; text-align: center}
+        .time{font-size: 0.65em}
+        img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+    }
+
+    &-actions{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        i{margin-left: 8px;}
+        padding-top: 35px;
+        .options{
+            display: flex;
+            justify-content: center;
+            width:  58px;
+            i{margin: 0 7px;}
+        }
+    }
+
+}

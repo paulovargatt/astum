@@ -1,32 +1,66 @@
-<ul class="collection col s12 m12 l10" *ngFor="let post of posts">
-    <li class="collection-item avatar">
-        <img src="http://placehold.it/150/150" class="circle">
-        <span class="title">{{post.username}}</span>
-        <p class="time">{{timeFromNow(post.created)}} <br>
-            Estado
-        </p>
-        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-    </li>
-    <li class="row">
-        <div class="col s12">
-            <div class="card">
-                <div class="card-image">
-                    <!--<img class="postImage" src="https://www.scienceabc.com/wp-content/uploads/2016/05/horse-running.webp" alt="">-->
-                </div>
-                <div class="card-content">
-                    <p>{{post.post}}</p>
-                </div>
-                <div class="card-action">
-                    <i class="material-icons" (click)="likePost(post)" [ngClass]="(!checkInLikesArray(post.likes, user.username)) ? 'notLiked' : 'liked' " >thumb_up</i>
-                    <span class="iconSpan">
+<div class="row col reset-padding" *ngFor="let post of posts">
+    <div class="post_user box row ">
+        <div class="col-4 post_user-desc">
+            <img src="https://lh3.googleusercontent.com/-xtXajHmN7ew/AAAAAAAAAAI/AAAAAAAAAAA/O1WoRYgD2xM/s128-c-k/photo.jpg"
+                 class="circle">
+            <span class="title">{{post.username}}</span>
+            <p class="time">{{timeFromNow(post.created)}}
+            </p>
+        </div>
+        <div class="col-8 post_user-content">
+            <p>{{post.post}}</p>
+        </div>
+
+        <div class="col-12 post_user-actions">
+            <div class="options">
+                <i class="material-icons" (click)="likePost(post)"
+                   [ngClass]="(!checkInLikesArray(post.likes, user.username)) ? 'notLiked' : 'liked' ">thumb_up</i>
+                <span class="iconSpan">
                         {{post.totalLikes}}
-                    </span>
-                    <i class="material-icons" [ngClass]="(!checkInLikesArray(post.comments, user.username)) ? 'notLiked' : 'liked' "  (click)="openCommentBox(post)">chat</i>
-                    <span class="iconSpan">
+                </span>
+            </div>
+
+            <div class="options">
+                <i class="material-icons"
+                   [ngClass]="(!checkInLikesArray(post.comments, user.username)) ? 'notLiked' : 'liked' "
+                   (click)="openCommentBox(post)">chat</i>
+                <span class="iconSpan">
                        {{post.comments.length}}
-                    </span>
-                </div>
+                </span>
             </div>
         </div>
-    </li>
-</ul>
+    </div>
+</div>
+
+<!--<ul class="collection col s12 m12 l10" *ngFor="let post of posts">-->
+<!--<li class="collection-item avatar">-->
+<!--<img src="http://placehold.it/150/150" class="circle">-->
+<!--<span class="title">{{post.username}}</span>-->
+<!--<p class="time">{{timeFromNow(post.created)}} <br>-->
+<!--Estado-->
+<!--</p>-->
+<!--<a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>-->
+<!--</li>-->
+<!--<li class="row">-->
+<!--<div class="col s12">-->
+<!--<div class="card">-->
+<!--<div class="card-image">-->
+<!--&lt;!&ndash;<img class="postImage" src="https://www.scienceabc.com/wp-content/uploads/2016/05/horse-running.webp" alt="">&ndash;&gt;-->
+<!--</div>-->
+<!--<div class="card-content">-->
+<!--<p>{{post.post}}</p>-->
+<!--</div>-->
+<!--<div class="card-action">-->
+<!--<i class="material-icons" (click)="likePost(post)" [ngClass]="(!checkInLikesArray(post.likes, user.username)) ? 'notLiked' : 'liked' " >thumb_up</i>-->
+<!--<span class="iconSpan">-->
+<!--{{post.totalLikes}}-->
+<!--</span>-->
+<!--<i class="material-icons" [ngClass]="(!checkInLikesArray(post.comments, user.username)) ? 'notLiked' : 'liked' "  (click)="openCommentBox(post)">chat</i>-->
+<!--<span class="iconSpan">-->
+<!--{{post.comments.length}}-->
+<!--</span>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</li>-->
+<!--</ul>-->

@@ -1,86 +1,87 @@
- <div class="user-detail user-detail-title box d-flex justify-content-center align-items-center">
-            <div class="col-md-4">
-                <img class="img"
-                     src="https://lh3.googleusercontent.com/-xtXajHmN7ew/AAAAAAAAAAI/AAAAAAAAAAA/O1WoRYgD2xM/s128-c-k/photo.jpg">
-            </div>
-            <div class="col-md-8 align-items-center justify-content-center">
-                <span class="title">Paulo Vargatt</span><br>
-                <span>Status: Casado</span>
+<div class="user-detail user-detail-title box d-flex justify-content-center align-items-center">
+    <div class="col-md-4">
+        <img class="img"
+             src="https://lh3.googleusercontent.com/-xtXajHmN7ew/AAAAAAAAAAI/AAAAAAAAAAA/O1WoRYgD2xM/s128-c-k/photo.jpg">
+    </div>
+    <div class="col-md-8 align-items-center justify-content-center">
+        <span class="title">Paulo Vargatt</span><br>
+        <span>Status: Casado</span>
 
-            </div>
-        </div>
-        <div class="box user-detail-footer d-flex justify-content-center align-items-center center">
-            <div class="group-icon">
+    </div>
+</div>
+<div class="box user-detail-footer d-flex justify-content-center align-items-center center">
+    <div class="group-icon">
 
-                <i class="icon ion-md-heart-empty font-gradient"></i>
-                <span class="likes">520</span>
+        <i class="icon ion-md-heart-empty font-gradient"></i>
+        <span class="likes">520</span>
 
-                <i class="font-gradient icon ion-ios-people"></i>
-                <span class="likes">369</span>
+        <i class="font-gradient icon ion-ios-people"></i>
+        <span class="likes">369</span>
 
-                <i class="font-gradient icon ion-ios-image"></i>
-                <span class="likes">9</span>
-            </div>
-        </div>
-        <div class="col mg-top-20 box">
-            <ul class="sidebar-menu">
-                <li>
-                    <i class="font-gradient icon ion-ios-apps"></i>
-                    Inicio
-                </li>
-                <li>
-                    <i class="font-gradient icon ion-ios-contacts"></i>
-                    Pessoas
-                </li>
-                <li>
-                    <i class="font-gradient icon ion-ios-chatboxes"></i>
-                    Mensagens
-                </li>
-                <li>
-                    <i class="font-gradient icon ion-ios-search"></i>
-                    Pesquisar
-                </li>
-                <li>
-                    <i class="font-gradient icon ion-ios-star"></i>
-                    Em destaque
-                </li>
-            </ul>
+        <i class="font-gradient icon ion-ios-images"></i>
+        <span class="likes">9</span>
+    </div>
+</div>
+<div class="col mg-top-20 box">
+    <ul class="sidebar-menu">
+        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+            <a [routerLink]="['/streams']">
+                <i class="icon ion-ios-apps"></i>
+                Inicio
+            </a>
+        </li>
+        <li>
+            <i class="icon ion-ios-contacts"></i>
+            Pessoas
+        </li>
+        <li>
+            <i class="icon ion-ios-chatboxes"></i>
+            Mensagens
+        </li>
+        <li>
+            <i class="icon ion-ios-search"></i>
+            Pesquisar
+        </li>
+        <li><i class="icon ion-ios-star"></i>
+            Em destaque
+        </li>
+    </ul>
 
 
-<!--<div class="row">-->
+    <!--<div class="row">-->
     <!--<div class="col s12 m4">-->
-        <!--<a href=""><span>Posts</span></a>-->
-        <!--<p class="num">10</p>-->
+    <!--<a href=""><span>Posts</span></a>-->
+    <!--<p class="num">10</p>-->
 
     <!--</div>-->
     <!--<div class="col s12 m4">-->
-        <!--<a href=""><span>Following</span></a>-->
-        <!--<p class="num">10</p>-->
+    <!--<a href=""><span>Following</span></a>-->
+    <!--<p class="num">10</p>-->
     <!--</div>-->
     <!--<div class="col s12 m4">-->
-        <!--<a href=""><span>Followers</span></a>-->
-        <!--<p class="num">10</p>-->
+    <!--<a href=""><span>Followers</span></a>-->
+    <!--<p class="num">10</p>-->
 
     <!--</div>-->
-<!--</div>-->
-<!--<ul class="collection with-header">-->
+    <!--</div>-->
+    <!--<ul class="collection with-header">-->
     <!--<li class="collection-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">-->
-        <!--<a [routerLink]="['/streams']">-->
-            <!--<div>Streams<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>-->
-        <!--</a>-->
+    <!--<a [routerLink]="['/streams']">-->
+    <!--<div>Streams<a href="#!" class="secondary-content"><i class="material-icons">send</i></a></div>-->
+    <!--</a>-->
     <!--</li>-->
     <!--<li class="collection-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">-->
-        <!--<a [routerLink]="['/pessoas']">-->
-            <!--<div>Pessoas<a href="#!" class="secondary-content"><i class="material-icons">people</i></a></div>-->
-        <!--</a>-->
+    <!--<a [routerLink]="['/pessoas']">-->
+    <!--<div>Pessoas<a href="#!" class="secondary-content"><i class="material-icons">people</i></a></div>-->
+    <!--</a>-->
     <!--</li>-->
     <!--<li class="collection-item">-->
-        <!--<div>Seguidores<a href="#!" class="secondary-content"><i class="material-icons">people_outline</i></a></div>-->
+    <!--<div>Seguidores<a href="#!" class="secondary-content"><i class="material-icons">people_outline</i></a></div>-->
     <!--</li>-->
     <!--<li class="collection-item">-->
-        <!--<div>Fotos<a href="#!" class="secondary-content"><i class="material-icons">photo_library</i></a></div>-->
+    <!--<div>Fotos<a href="#!" class="secondary-content"><i class="material-icons">photo_library</i></a></div>-->
     <!--</li>-->
     <!--<li class="collection-item">-->
-        <!--<div>Notificações<a href="#!" class="secondary-content"><i class="material-icons">alarm</i></a></div>-->
+    <!--<div>Notificações<a href="#!" class="secondary-content"><i class="material-icons">alarm</i></a></div>-->
     <!--</li>-->
-<!--</ul>-->
+    <!--</ul>-->

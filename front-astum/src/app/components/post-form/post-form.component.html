@@ -1,34 +1,16 @@
-<div class="row">
-    <div class="col s12 m12 l10">
-        <div class="card postDiv">
-            <div class="card-content">
-                <form [formGroup]="postForm" novalidate (ngSubmit)="submitPost()">
-                    <div class="formDiv">
-                        <textarea formControlName="post" class="materialize-textarea"></textarea>
-                        <div class="file-field input-field">
-                            <div class="row">
-                                <div class="col s6 m6 l6">
-                                    <div class="btn">
-                                        <span>
-                                            <i class="material-icons">image</i>
-                                            Imagem
-                                        </span>
-                                        <input type="file">
-                                    </div>
-                                    <div class="file-path-wrapper">
-                                        <input class="file-path validate" type="text">
-                                    </div>
-                                </div>
-                                <div class="col s6 m6 l6">
-                                    <button class="btn postBtn">
-                                        Post
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
+<div class="row col box" id="component_post">
+    <form [formGroup]="postForm" novalidate (ngSubmit)="submitPost()">
+        <div class="form-group">
+            <textarea formControlName="post"  rows="2" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-    </div>
+
+        <!--<div class="imagem">-->
+            <!--<span><i class="material-icons">image</i>Imagem</span>-->
+            <!--<input type="file">-->
+        <!--</div>-->
+        <button class="btn postBtn btn-primary">
+            Post
+        </button>
+    </form>
 </div>
+

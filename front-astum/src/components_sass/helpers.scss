@@ -6,6 +6,21 @@ body {
   color: #84869C;
 }
 
+p,dl, ol, ul{margin: 0px; padding: 0px}
+a{
+  color: #84869C;
+  &:hover{
+    text-decoration: none;
+  }
+}
+.row{
+  margin-left: 0px;
+}
+
+.reset-padding{padding: 0px!important;}
+
+
+
 @font-face {
   font-family: "Fabulous";
   src: url("./assets/fonts/Fabulous.otf") format("opentype"),
@@ -70,15 +85,17 @@ body {
 }
 
 @mixin font-gradient(){
-  background: linear-gradient($pink, $purple);
+  background: linear-gradient(#88D2FF, #D78FFC);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
-.font-gradient{
-  color: #a4b9fe;
-  font-weight: bolder;
+.font-gradient.icon{
+  font-weight: bold;
+  &::before {
+   @include font-gradient;
+  }
 }
 
 .user-avatar {

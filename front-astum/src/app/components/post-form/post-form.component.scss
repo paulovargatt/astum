@@ -1,0 +1,21 @@
+#component_post{
+    padding: 15px!important;
+    margin-bottom: 20px;
+    form{width: 100%}
+    textarea{
+        width: 100%;
+        min-height: 41px;
+        max-height: 60px;
+    }
+
+    .imagem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button{
+        width: 100px;
+        margin-top: 10px;
+    }
+}

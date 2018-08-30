@@ -24,9 +24,9 @@
         width: 100%;
         padding: 10px 5px;
         i {
-            color: #64b5f6;
-            font-size: 1.6em;
-            margin: 0 5px;
+          //  color: #999ca0;
+            font-size: 2em;
+            margin: 0 8px;
             font-weight: bold
         }
     }
@@ -40,9 +40,9 @@
     li{
         margin: 8px 0px;
         display: flex;
-        i{margin: 0 5px; fill: rgba(128, 128, 128, 0.43)}
+        i{margin: 0 5px; color: #999ca0; font-size: 1.55em;}
         font-size: 1.15em;
-        color: #64b5f6;
+        color: #999ca0;
         font-weight: 600;
         align-items: center;
     }

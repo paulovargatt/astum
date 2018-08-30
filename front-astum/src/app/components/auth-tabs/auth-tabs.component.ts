@@ -11,8 +11,7 @@ export class AuthTabsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    const tabs = document.querySelector('.tabs');
-    material.Tabs.init(tabs, {});
+
   }
 
 }

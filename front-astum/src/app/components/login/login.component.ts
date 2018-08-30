@@ -35,7 +35,8 @@ export class LoginComponent implements OnInit {
   loginUser() {
     this.showSpiner = true;
     this.auth.loginUser(this.loginForm.value).subscribe((data) => {
-        this.tokenService.setToken(data.token);
+        let response = (data as any);
+        this.tokenService.setToken(response.token);
         this.loginForm.reset();
         setTimeout(() => {
           this.router.navigate(['streams']);
