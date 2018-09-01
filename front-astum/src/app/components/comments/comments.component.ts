@@ -8,7 +8,7 @@ import * as moment from 'moment';
 @Component({
   selector: 'app-comments',
   templateUrl: './comments.component.html',
-  styleUrls: ['./comments.component.css'],
+  styleUrls: ['./comments.component.scss'],
   providers: [
     PostService
   ]
@@ -31,7 +31,6 @@ export class CommentsComponent implements OnInit, AfterContentInit {
   }
 
   ngOnInit() {
-    this.toolbarElement = document.querySelector('.nav-content');
     this.postId = this.route.snapshot.paramMap.get('id');
     this.commentForm = this.fb.group({
       comment: ['', Validators.required]
@@ -45,15 +44,16 @@ export class CommentsComponent implements OnInit, AfterContentInit {
   }
 
   ngAfterContentInit() {
-    this.toolbarElement.style.display = 'none';
+
   }
 
   addComment() {
-    console.log(this.commentForm.value);
+   if( this.commentForm.value.comment.length > 1){
     this.postService.addComment(this.postId, this.commentForm.value.comment).subscribe((data) => {
       this.socket.emit('refresh', {});
       this.commentForm.reset();
     });
+   }
   }
 
   getPost() {

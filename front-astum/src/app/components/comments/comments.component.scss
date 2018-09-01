@@ -1,0 +1,45 @@
+.comments-post {
+  padding: 0px 15px;
+  .post-area {
+    p {
+      margin: 10px 0px;
+    }
+  }
+  form {
+    width: 100%;
+    textarea {
+      width: 100%;
+    }
+
+    button {
+      margin-bottom: 20px;
+    }
+  }
+
+  h5.title-coment {
+    font-weight: bold;
+    font-size: 0.9em;
+    display: block;
+    width: 100%;
+    color: #739cd4;
+  }
+
+  .form-group {
+    margin-bottom: 0.5rem;
+  }
+
+  .comment-box {
+    padding: 2px;
+    margin: 10px 0px;
+    width: 100%;
+    h5 {
+      font-size: 0.8em;
+      font-weight: bold;
+      margin-bottom: 2px;
+    }
+    p {
+      font-size: 0.8em;
+    }
+  }
+
+}

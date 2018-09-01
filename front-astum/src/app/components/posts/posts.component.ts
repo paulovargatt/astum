@@ -28,7 +28,7 @@ export class PostsComponent implements OnInit {
 
   ngOnInit() {
     this.user = this.tokenService.getPayload();
-
+    console.log(this.user.username,'su')
     this.allPosts();
 
     this.socket.on('refreshPage', (data) => {
@@ -38,8 +38,9 @@ export class PostsComponent implements OnInit {
 
   allPosts(){
     this.postsService.getPosts().subscribe((data) => {
-      let ret = (data as any);
-      this.posts = ret.posts;
+      let response = (data as any);
+
+      this.posts = response.posts;
     }, err => {
       if(err.error.token === null){
         this.tokenService.deleteToken();

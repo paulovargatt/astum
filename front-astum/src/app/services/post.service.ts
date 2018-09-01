@@ -19,7 +19,7 @@ export class PostService {
   }
 
   getPosts() {
-    return this.http.get(`${BASEURL}/posts/`);
+    return this.http.get(`${BASEURL}/posts`);
   }
 
   addLike(body): Observable<any> {

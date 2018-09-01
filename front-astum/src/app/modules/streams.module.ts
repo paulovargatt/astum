@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { CommentsComponent } from '../components/comments/comments.component';
 import { RouterModule } from '@angular/router';
 import { PeopleComponent } from '../components/people/people.component';
+import {SideThreeComponent} from '../components/side-three/side-three.component';
 
 @NgModule({
   imports: [
@@ -21,7 +22,7 @@ import { PeopleComponent } from '../components/people/people.component';
     HttpClientModule,
     RouterModule
   ],
-  declarations: [StreamsComponent,ToolbarComponent, SideComponent, PostFormComponent, PostsComponent, CommentsComponent, PeopleComponent],
+  declarations: [StreamsComponent,ToolbarComponent,SideThreeComponent, SideComponent, PostFormComponent, PostsComponent, CommentsComponent, PeopleComponent],
   exports: [StreamsComponent,ToolbarComponent],
   providers:[
     TokenService,

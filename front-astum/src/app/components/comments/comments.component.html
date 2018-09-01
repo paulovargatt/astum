@@ -1,48 +1,89 @@
 <app-toolbar></app-toolbar>
 
-<div class="container" style="margin-top: 30px">
+<div class="container mg-top-20">
+
     <div class="row">
-        <div class="col s12 m4 l3">
+        <div class="col-3">
             <app-side></app-side>
         </div>
 
-        <div class="col s12 m8 l9">
-            <div class="col s12 m12 l10">
-                <div class="row">
-                    <div class="card">
-                        <div class="collection">
-                            <li class="collection-item">
-                                <span class="post">
-                                    {{post}}
-                                </span>
-                            </li>
+        <div class="col-6">
+            <div class="box row comments-post ">
+                <div class="post-area">
+                    <p>{{post}}</p>
+                </div>
+
+                    <form [formGroup]="commentForm" (ngSubmit)="addComment()">
+                        <div class="form-group">
+                            <textarea formControlName="comment" rows="2" class="form-control"></textarea>
                         </div>
-                    </div>
-                </div>
-                <div class="card postDiv">
-                    <div class="card-content">
-                        <form [formGroup]="commentForm" (ngSubmit)="addComment()">
-                            <div class="formDiv">
-                                <textarea formControlName="comment" class="materialize-textarea"></textarea>
-                                <button class="btn postBtn" >
-                                    Comentar
-                                </button>
-                            </div>
+                        <button class="btn-primary" [disabled]="commentForm.value.comment.length <= 1">
+                            Comentar
+                        </button>
+                    </form>
 
-                        </form>
+                <h5 class="title-coment">Comentários: </h5>
+                <div class="media comment-box d-flex align-items-center" *ngFor="let comment of commentsArray">
+                    <img class="align-self-center mr-2 rounded-circle" src="http://placehold.it/64x64">
+                    <div class="media-body">
+                        <h5 class="mt-0">{{comment.username}} - {{timeFromNow(comment.created_at)}}</h5>
+                        <p>{{comment.comment}}</p>
                     </div>
                 </div>
+
             </div>
+        </div>
 
-            <ul class="collection col 112 m10" *ngFor="let comment of commentsArray">
-                <li class="collection-item avatar">
-                    <img class="circle" src="http://placehold.it/50x50" alt="">
-                    <span class="title">{{comment.username}}</span>
-                    <p class="time">{{timeFromNow(comment.created_at)}}</p>
-                    <p class="postComment">{{comment.comment}}</p>
-                </li>
-            </ul>
-
+        <div class="row col">
+            <app-side-three></app-side-three>
         </div>
     </div>
 </div>
+
+
+<!--<div class="container" style="margin-top: 30px">-->
+<!--<div class="row">-->
+<!--<div class="col s12 m4 l3">-->
+<!--<app-side></app-side>-->
+<!--</div>-->
+
+<!--<div class="col s12 m8 l9">-->
+<!--<div class="col s12 m12 l10">-->
+<!--<div class="row">-->
+<!--<div class="card">-->
+<!--<div class="collection">-->
+<!--<li class="collection-item">-->
+<!--<span class="post">-->
+<!--{{post}}-->
+<!--</span>-->
+<!--</li>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="card postDiv">-->
+<!--<div class="card-content">-->
+<!--<form [formGroup]="commentForm" (ngSubmit)="addComment()">-->
+<!--<div class="formDiv">-->
+<!--<textarea formControlName="comment" class="materialize-textarea"></textarea>-->
+<!--<button class="btn postBtn" >-->
+<!--Comentar-->
+<!--</button>-->
+<!--</div>-->
+
+<!--</form>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+
+<!--<ul class="collection col 112 m10" *ngFor="let comment of commentsArray">-->
+<!--<li class="collection-item avatar">-->
+<!--<img class="circle" src="http://placehold.it/50x50" alt="">-->
+<!--<span class="title">{{comment.username}}</span>-->
+<!--<p class="time">{{timeFromNow(comment.created_at)}}</p>-->
+<!--<p class="postComment">{{comment.comment}}</p>-->
+<!--</li>-->
+<!--</ul>-->
+
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->

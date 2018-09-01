@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { AuthService } from '../../services/auth.service';
+
 import { Router } from '@angular/router';
 import { TokenService } from '../../services/token.service';
 
@@ -18,6 +19,7 @@ export class LoginComponent implements OnInit {
   constructor(private fb: FormBuilder,
               private router: Router,
               private tokenService: TokenService,
+
               private auth: AuthService) {
   }
 
@@ -35,16 +37,17 @@ export class LoginComponent implements OnInit {
   loginUser() {
     this.showSpiner = true;
     this.auth.loginUser(this.loginForm.value).subscribe((data) => {
-        let response = (data as any);
-        this.tokenService.setToken(response.token);
+        this.tokenService.setToken(data.token);
         this.loginForm.reset();
-        setTimeout(() => {
+
           this.router.navigate(['streams']);
-        }, 1000);
+
     },
     err => {
       this.showSpiner = false;
     });
   }
+
+
 
 }
