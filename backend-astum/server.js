@@ -32,11 +32,15 @@ mongoose.connect(dbConf.url, {useNewUrlParser: true});
 
 const auth = require('./routes/authRoutes');
 const posts = require('./routes/postRoutes');
+const users = require('./routes/userRoutes');
+const friends = require('./routes/friendsRoutes');
 
 require('./socket/streams')(io);
 
 app.use('/api/astum', auth);
 app.use('/api/astum', posts);
+app.use('/api/astum', users);
+app.use('/api/astum', friends);
 
 server.listen(3000, () => {
   console.log('Running')

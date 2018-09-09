@@ -13,6 +13,7 @@ import { CommentsComponent } from '../components/comments/comments.component';
 import { RouterModule } from '@angular/router';
 import { PeopleComponent } from '../components/people/people.component';
 import {SideThreeComponent} from '../components/side-three/side-three.component';
+import { UsersService } from '../services/users.service';
 
 @NgModule({
   imports: [
@@ -26,7 +27,8 @@ import {SideThreeComponent} from '../components/side-three/side-three.component'
   exports: [StreamsComponent,ToolbarComponent],
   providers:[
     TokenService,
-    PostService
+    PostService,
+    UsersService
   ]
 })
 export class StreamsModule { }

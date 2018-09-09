@@ -42,6 +42,7 @@ async function getAllPosts(req, res) {
       Post.find({})
         .populate('user')
         .sort({ created: -1 });
+    console.log(posts, 'POSTS SERVEER')
     return res.status(HttpStatus.OK).json({ message: 'Posts', posts });
   } catch (e) {
     return res.status(HttpStatus.INTERNAL_SERVER_ERROR).json({ message: 'Error', e });

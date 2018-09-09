@@ -30,9 +30,11 @@
                 Inicio
             </a>
         </li>
-        <li>
-            <i class="icon ion-ios-contacts"></i>
-            Pessoas
+        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+            <a [routerLink]="['/pessoas']">
+                <i class="icon ion-ios-contacts"></i>
+                Pessoas
+            </a>
         </li>
         <li>
             <i class="icon ion-ios-chatboxes"></i>

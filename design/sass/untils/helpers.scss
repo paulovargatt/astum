@@ -18,7 +18,11 @@ body {
 }
 
 .mg-top-20 {
-  margin-top: 20px;
+  margin-top: 20px!important;
+}
+
+.mg-top-10 {
+  margin-top: 10px!important;;
 }
 
 .mg-15 {
@@ -79,4 +83,8 @@ body {
 .font-gradient{
   color: #a4b9fe;
   font-weight: bolder;
+}
+
+.card{
+  border: 0px solid rgba(0, 0, 0, 0.125)!important;
 }
