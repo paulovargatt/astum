@@ -14,6 +14,7 @@ import { RouterModule } from '@angular/router';
 import { PeopleComponent } from '../components/people/people.component';
 import {SideThreeComponent} from '../components/side-three/side-three.component';
 import { UsersService } from '../services/users.service';
+import { FollowingComponent } from '../components/following/following.component';
 
 @NgModule({
   imports: [
@@ -23,7 +24,7 @@ import { UsersService } from '../services/users.service';
     HttpClientModule,
     RouterModule
   ],
-  declarations: [StreamsComponent,ToolbarComponent,SideThreeComponent, SideComponent, PostFormComponent, PostsComponent, CommentsComponent, PeopleComponent],
+  declarations: [StreamsComponent,ToolbarComponent,SideThreeComponent, SideComponent, PostFormComponent, PostsComponent, CommentsComponent, PeopleComponent, FollowingComponent],
   exports: [StreamsComponent,ToolbarComponent],
   providers:[
     TokenService,

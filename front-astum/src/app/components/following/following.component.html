@@ -1,0 +1,32 @@
+<app-toolbar></app-toolbar>
+<div class="container mg-top-20">
+  <div class="row">
+    <div class="col-md-3">
+      <app-side></app-side>
+    </div>
+
+    <div class="col-md-9 no-padding">
+      <div class="row">
+        <ng-container>
+          <div class="col-md-3" *ngFor="let user of following">
+            <div class="card">
+              <img class="card-img-top"
+                   src="https://placeimg.com/640/480/animals"
+                   alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">{{user.userFollowed.username}}</h5>
+                <p class="card-text">Some quick example</p>
+                <button  class="btn">Unfollow</button>
+              </div>
+            </div>
+          </div>
+        </ng-container>
+        <ng-template #notResult>
+          <p>Sem usuários no momento...</p>
+        </ng-template>
+      </div>
+    </div>
+
+  </div>
+</div>
+

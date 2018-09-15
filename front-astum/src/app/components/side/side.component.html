@@ -36,6 +36,12 @@
                 Pessoas
             </a>
         </li>
+        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+            <a [routerLink]="['/pessoas','seguidores']">
+                <i class="icon ion-ios-add-circle"></i>
+                 Seguindo
+            </a>
+        </li>
         <li>
             <i class="icon ion-ios-chatboxes"></i>
             Mensagens

@@ -7,20 +7,21 @@
 
         <div class="col-md-9 no-padding">
             <div class="row">
-                <div *ngIf="users.length; else notResult">
+                <ng-container *ngIf="users.length; else notResult">
                 <div class="col-md-3" *ngFor="let user of users">
                     <div class="card">
                         <img class="card-img-top"
-                             src="https://lh3.googleusercontent.com/-xtXajHmN7ew/AAAAAAAAAAI/AAAAAAAAAAA/O1WoRYgD2xM/s128-c-k/photo.jpg"
+                             src="https://placeimg.com/640/480/animals"
                              alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">{{user.username}}</h5>
                             <p class="card-text">Some quick example</p>
-                            <a href="#" class="btn btn-primary mg-top-10">Go somewhere</a>
+                            <button  *ngIf="!checkInArray(userArr, user._id)" (click)="followUser(user)" class="btn btn-primary mg-top-10">Seguir</button>
+                            <button *ngIf="checkInArray(userArr, user._id)" class="btn">Seguindo</button>
                         </div>
                     </div>
                 </div>
-                </div>
+                </ng-container>
                 <ng-template #notResult>
                     <p>Sem usuários no momento...</p>
                 </ng-template>
