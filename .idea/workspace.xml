@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9355705d-8ba3-4a56-83a8-1c92eeeaa2c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-astum/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-astum/controllers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend-astum/routes/userRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend-astum/routes/userRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-astum/src/app/components/people/people.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/components/people/people.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-astum/src/app/components/people/people.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/components/people/people.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-astum/src/app/components/side/side.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/components/side/side.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-astum/src/app/modules/streams-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/modules/streams-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-astum/src/app/modules/streams.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/modules/streams.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-astum/src/app/services/users.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-astum/src/app/services/users.service.ts" afterDir="false" />
-    </list>
+    <list default="true" id="9355705d-8ba3-4a56-83a8-1c92eeeaa2c2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +15,7 @@
     <session id="499234689">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="56" />
+          <entry key="project.closed" value="57" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.13" value="1" />
@@ -316,8 +306,8 @@
   </component>
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1373" />
-    <option name="y" value="-8" />
+    <option name="x" value="1359" />
+    <option name="y" value="141" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -387,7 +377,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="idea.background.editor" value="C:\Users\varga\Pictures\arquetips\Wallpaper-HD-Big-Eagle-Flying.jpg,4,scale,center" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nodeR" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="C:\xampp\htdocs\astum\node_modules\tslint" />
@@ -500,12 +490,12 @@
       <workItem from="1536979149144" duration="50000" />
       <workItem from="1536979346930" duration="22000" />
       <workItem from="1536979385843" duration="2624000" />
-      <workItem from="1537014316922" duration="1283000" />
+      <workItem from="1537014316922" duration="1916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150491000" />
+    <option name="totallyTimeSpent" value="151124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
